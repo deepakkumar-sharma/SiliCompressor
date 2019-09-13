@@ -28,11 +28,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
     implementation 'com.android.support:appcompat-v7:28.0.0'
-}
-
-configurations {
-    cleanedAnnotations
-    all*.exclude group: 'org.jetbrains' , module:'annotations'
+    implementation 'com.googlecode.mp4parser:isoparser:1.0.6'
 }
 
 ext {
